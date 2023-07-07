@@ -1,4 +1,7 @@
-# uas_jupriyanto
+# UAS LAB PBK
+Nama : Jupriyanto
+
+NPM : 213510766
 
 This template should help get you started developing with Vue 3 in Vite.
 
