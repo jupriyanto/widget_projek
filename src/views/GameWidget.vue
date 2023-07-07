@@ -48,7 +48,7 @@ export default {
 </script>
 
 <template>
-  <h1 class="text-center text-3xl font-bold ">Puzzle Games</h1>
+  <h1 class="text-center text-3xl font-bold pb-5">Puzzle Games</h1>
   <main class="main">
     <div class="hud">
       <span>Time: {{ time }}</span>
@@ -105,31 +105,10 @@ main {
   align-items: center;
   justify-content: center;
 }
-.btn {
-  border: 0.1rem solid $lavender-blue;
-  background-color: $eerie-black;
-  flex-basis: 50%;
-  color: $dutch-white;
-  font-size: 0.6rem;
-  margin: 1rem;
-  cursor: pointer;
-  &:hover {
-    background-color: $lavender-blue;
-    color: $eerie-black;
-    transition: 0.3s ease;
-  }
-}
 a {
   text-decoration: none;
   color: $dutch-white;
   font-size: 14px;
   bottom: 0;
-}
-@media (min-width: 750px) {
-  .btn {
-    flex-basis: 40%;
-    height: 40px;
-    font-size: 1.2rem;
-  }
 }
 </style>
